@@ -68,7 +68,14 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 
 1. Object triggers **Sensor 1** → record `previous_time` (µs)  
 2. Object triggers **Sensor 2** → record `time_now` (µs)  
-3. Time difference:  
+3. Time difference:
+   change_in_time = time_now - previous_time
+4. Convert microseconds → seconds:
+   time = change_in_time / 1000000
+5. Speed in cm/s:
+   speed_in_cmps = sensor_distance_cm / time
+6. Speed in m/s:
+   speed_m_s = speed_in_cmps / 100
 ---
 ## **How to Use**
 
