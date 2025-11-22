@@ -39,7 +39,12 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 ---
 
 ## **Hardware Setup**
+### **Pictorial View**
 ![Speed Monitor Setup](assets/images/Speed_monitor_system.png)
+---
+### **Block Diagram**
+![Speed Monitor Setup](assets/images/Block_diagram.png)
+---
 | Component | Arduino Pin |
 |----------|--------------|
 | IR Sensor 1 Output | D4 |
@@ -70,8 +75,8 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 
 ## **Future Improvements**
 
-1. Add debounce or noise filtering for IR sensors
-2. Implement averaging for more stable results
-3. Add support for mph, km/h, or user-selectable units
-4. Integrate data logging (SD card or serial plotter)
-5. Create a 3D-printed enclosure or sensor mount
+- Add debounce or noise filtering for IR sensors
+- Implement averaging for more stable results
+- Add support for mph, km/h, or user-selectable units
+- Integrate data logging (SD card or serial plotter)
+- Create a 3D-printed enclosure or sensor mount
