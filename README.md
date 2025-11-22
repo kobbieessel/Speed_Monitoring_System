@@ -25,7 +25,10 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 - **Test Object**
 
 ---
-## **Program Flow-chart**
+## **Library Used**
+- LiquidCrystal_I2C
+  
+### **Program Flow-chart**
 ![Speed Monitor Setup](assets/images/FlowChart.png)
 ---
 
