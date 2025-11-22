@@ -25,6 +25,9 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 - **Test Object**
 
 ---
+## **Program Flow-chart**
+![Speed Monitor Setup](assets/images/FlowChart.png)
+---
 
 ## **System Features**
 
@@ -63,7 +66,17 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 1. Object triggers **Sensor 1** → record `previous_time` (µs)  
 2. Object triggers **Sensor 2** → record `time_now` (µs)  
 3. Time difference:  
+---
+## **How to Use**
 
+- Power the Arduino Uno R4 WiFi.
+- Place the object in front of the first IR sensor to trigger measurement.
+- Move the object through the second IR sensor.
+- Speed is displayed on the LCD in meters per second (m/s).
+- Serial Monitor (115200 baud) prints:
+  - Time difference (µs)
+  - Calculated speed (cm/s)
+---
 ## **Testing Notes**
 
 - Speed values in mph were too small to be clearly visible on the LCD.
@@ -72,7 +85,7 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
   - Consistent sensor spacing
   - Straight, continuous motion path
   - Stable lighting conditions (IR logic)
-
+---
 ## **Future Improvements**
 
 - Add debounce or noise filtering for IR sensors
