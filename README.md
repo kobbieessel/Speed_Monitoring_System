@@ -1,4 +1,3 @@
-Speed_monitor_system.png
 # **Speed Monitoring System**
 
 An embedded system project that measures the real-time speed of a moving object using two IR break-beam sensors. The system calculates speed based on the time it takes an object to travel between the two sensors and presents the results on an I2C LCD display. Timing and speed data are also sent to the Serial Monitor for verification and debugging.
@@ -40,7 +39,7 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 ---
 
 ## **Hardware Setup**
-![Speed Monitor Setup](assets/images/speed_monitor.jpg)
+![Speed Monitor Setup](assets/images/Speed_monitor_system.png)
 | Component | Arduino Pin |
 |----------|--------------|
 | IR Sensor 1 Output | D4 |
