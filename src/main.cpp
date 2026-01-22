@@ -4,7 +4,7 @@
 // Macros
 #define IR_SENSOR_1 4
 #define IR_SENSOR_2 3
-#define SENSORS_DISTANCE_APART_CM 9 // 9 cm
+#define SENSORS_DISTANCE_APART_CM 9 // 9.0 cm
 #define ADDRESS 0x27
 #define COLS 16
 #define ROWS 2
