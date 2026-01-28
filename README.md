@@ -103,3 +103,10 @@ During testing, readings in miles per hour appeared too small on the LCD to be v
 - Add support for mph, km/h, or user-selectable units
 - Integrate data logging (SD card or serial plotter)
 - Create a 3D-printed enclosure or sensor mount
+
+## Author 
+**Kwabena Amoako**
+Embedded Systems | Hardware & Firmware | Robotics
+
+Social:
+[LinkedIn](https://www.linkedin.com/in/kwabena-e-amoako/)
